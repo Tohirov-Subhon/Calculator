@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="first">
+        <img class="img1" src="/img/logo_dark.png" alt="">
+        <h1 style="color: white;">CALCULATOR</h1>
+    </div>
+
+    <div class="fi">
+
+
+        <div class="fi1">
+            <div class="logo">
+                <img src="/img/logo_dark (1).png" alt="">
+                <h3>Calculator</h3>
+            </div>
+
+            <div class="logo2">
+                <img class="img2" src="/img/Frame 514255.png" alt="">
+            </div>
+
+        
+        </div>
+
+        <hr class="tr1">
+
+        <form name="form"><input name="textView" class="in1" type="text" readonly></form>
+        <form name="form2"><input name="textView2" class="in2" type="text" readonly></form>
+
+        <div class="color"></div>
+
+        <div class="fi2">
+        
+        <div class="del" onclick="back('svg')"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75 14.25 12m0 0 2.25 2.25M14.25 12l2.25-2.25M14.25 12 12 14.25m-2.58 4.92-6.374-6.375a1.125 1.125 0 0 1 0-1.59L9.42 4.83c.21-.211.497-.33.795-.33H19.5a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-9.284c-.298 0-.585-.119-.795-.33Z" />
+          </svg>
+          </div>
+        
+        <div class="items clean" onclick="clean('C')">C</div>
+        <div class="items gray" onclick="insert1('(')">( )</div>
+        <div class="items gray" onclick="bluuee('%')">%</div>
+        <div class="items blue" onclick="bluuee('/')">/</div>
+        <div class="items black" onclick="insert('7')">7</div>
+        <div class="items black" onclick="insert('8')">8</div>
+        <div class="items black" onclick="insert('9')">9</div>
+        <div class="items blue" onclick="bluuee('*')">X</div>
+        <div class="items black" onclick="insert('4')">4</div>
+        <div class="items black" onclick="insert('5')">5</div>
+        <div class="items black" onclick="insert('6')">6</div>
+        <div class="items blue" onclick="bluuee('-')">-</div>
+        <div class="items black" onclick="insert('1')">1</div>
+        <div class="items black" onclick="insert('2')">2</div>
+        <div class="items black" onclick="insert('3')">3</div>
+        <div class="items blue" onclick="bluuee('+')">+</div>
+        <div class="items black" onclick="insert('+')">+/-</div>
+        <div class="items black" onclick="insert('0')">0</div>
+        <div class="items black" onclick="bluuee('.')">.</div>
+        <div class="items equal" onclick="equal('=')">=</div>
+
+        </div>
+        
+    </div>
+    
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
